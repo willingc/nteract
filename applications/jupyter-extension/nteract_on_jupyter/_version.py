@@ -1,8 +1,10 @@
+"""version info for pip and conda releases
+
+__version__ and version_info are set using the version information
+contained in the package.json for this application.
+"""
 import json
 import os
-
-version_info = (0, 0, 0)
-__version__ = "0.0.0"
 
 from . import PACKAGE_DIR
 

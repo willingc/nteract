@@ -71,3 +71,9 @@ babby
 ```
 
 5.  Once you're ready click "Publish release". On macOS and Windows, the update will be automatically downloaded and installed.
+
+## Releasing nteract web application
+
+To release **nteract_on_jupyter** web application on pip or conda-forge, please follow these steps:
+
+TODO

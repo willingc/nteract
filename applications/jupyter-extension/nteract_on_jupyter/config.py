@@ -6,7 +6,9 @@ class NteractConfig(Configurable):
     """The nteract application configuration object
     """
 
-    name = Unicode('nteract', help='The name of nteract, which is configurable for some reason')
+    name = Unicode(
+        'nteract', help='The name of nteract, which is configurable for some reason'
+    )
 
     page_url = Unicode('/nteract', help='The base URL for nteract web')
 

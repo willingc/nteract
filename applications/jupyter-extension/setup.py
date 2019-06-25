@@ -5,7 +5,6 @@ import setuptools
 import json
 import os
 
-version = '0.0.1-dev'
 name = "nteract_on_jupyter"
 
 here = os.path.realpath(os.path.dirname(__file__))
@@ -31,5 +30,7 @@ setuptools.setup(
     zip_safe=False,
     install_requires=['notebook'],
     data_files=data_files,
-    entry_points={'console_scripts': ['jupyter-nteract = nteract_on_jupyter.nteractapp:main']},
+    entry_points={
+        'console_scripts': ['jupyter-nteract = nteract_on_jupyter.nteractapp:main']
+    },
 )
